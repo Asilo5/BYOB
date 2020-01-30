@@ -90,24 +90,24 @@ export const locations = [
                 address: 'South Bank Food Market, Waterloo, East London, England'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'The Vurger Co - Richmix Square',
+                restaurantType: 'Burger Restaurant',
+                address: 'Unit 9, Avant Garde, Richmix Square, East London, England, E1 6LD'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Temple of Camden',
+                restaurantType: 'Vegan fried chicken shop',
+                address: '103a Camley St, North London, England, N1C 4PF'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Rudys Dirty Vegan Diner',
+                restaurantType: 'Vegan junk food restaurant',
+                address: 'Unit 729-731 Camden Stables Market, North West London, England, NW1 8AH'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Black Cat',
+                restaurantType: 'Vegan cafe',
+                address: '76 Clarence Rd, Hackney, East London, England, E5 8HB'
             }
         ]
     },
@@ -116,54 +116,54 @@ export const locations = [
         avgVegans: '',
         restaurants: [
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Meatless District',
+                restaurantType: 'Modern vegan bar & kitchen',
+                address: 'Bilderdijkstraat 65-67, Amsterdam, Netherlands, 1053 KM'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'TerraZen Centre',
+                restaurantType: 'Caribbean and Japanese restaurant',
+                address: '19 hs Sint Jacobstraat, Amsterdam, Netherlands, 1012 NC'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Vegabond - West',
+                restaurantType: 'Vegan shop and deli counter',
+                address: 'De Clercqstraat 48, Amsterdam, Netherlands, 1052NH'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Deer Mama',
+                restaurantType: 'Vegan mylk & burger bar',
+                address: 'Ceintuurbaan 71, Amsterdam, Netherlands'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Plant Based Sushi',
+                restaurantType: 'Vegan sushi',
+                address: 'OKO, Admiraal de Ruijterweg 331, Amsterdam, Netherlands, 1055 LZ'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Kebabi',
+                restaurantType: 'Vegan döner kebab joint',
+                address: 'Overtoom 428, Amsterdam, Netherlands'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Mooshka Vegan Soul Food',
+                restaurantType: 'Restaurant',
+                address: 'Van Woustraat 110, Amsterdam, Netherlands, 1073LS'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Freaking Vegan',
+                restaurantType: 'Vegan junk food bar',
+                address: 'Botermarkt 29, Haarlem, Netherlands, 2011 XL'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Chickpea',
+                restaurantType: 'Falafel and pita eatery',
+                address: 'Kleine Houtstraat 2A, Haarlem, Netherlands, 2011 DM'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Nono Cakes',
+                restaurantType: 'Wholesale bakery',
+                address: 'Harriet Freezerstraat 108A, Amsterdam, Netherlands'
             }
         ]
     },
@@ -172,14 +172,14 @@ export const locations = [
         avgVegans: '',
         restaurants: [
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Bowon',
+                restaurantType: 'Vegan eatery',
+                address: 'Phra Sumen Rd, Bowon Niwet Rd, Bangkok, Thailand'
             },
             {
-                name: '',
-                restaurantType: '',
-                address: ''
+                name: 'Art Aharn Jay',
+                restaurantType: 'Thai vegan food stall',
+                address: '95/54 Tri Phet Rd, Khwaeng Wang Burapha Phirom, Bangkok, Thailand, 10200'
             },
             {
                 name: '',
@@ -224,7 +224,7 @@ export const locations = [
         ]
     },
     {
-        city: 'Israel',
+        city: 'Hanoi',
         avgVegans: '',
         restaurants: [
             {
@@ -279,4 +279,4 @@ export const locations = [
             }
         ]
     }
-]
+];
