@@ -1,7 +1,7 @@
 export const locations = [
     {
         city: 'Berlin',
-        avgVegans: '',
+        avgVegans: '80,000',
         restaurants: [
             {
                 name: 'Cafe Vux',
@@ -57,7 +57,7 @@ export const locations = [
     },
     {
         city: 'London',
-        avgVegans: '',
+        avgVegans: '540,000',
         restaurants: [
             {
                 name: 'Purezza',
@@ -113,7 +113,7 @@ export const locations = [
     },
     {
         city: 'Amsterdam',
-        avgVegans: '',
+        avgVegans: 'nan',
         restaurants: [
             {
                 name: 'Meatless District',
@@ -169,7 +169,7 @@ export const locations = [
     },
     {
         city: 'Bangkok',
-        avgVegans: '',
+        avgVegans: 'nan',
         restaurants: [
             {
                 name: 'Bowon',
@@ -225,7 +225,7 @@ export const locations = [
     },
     {
         city: 'Hanoi',
-        avgVegans: '',
+        avgVegans: 'nan',
         restaurants: [
             {
                 name: 'Tam An Lac - Hoan Kiem',
