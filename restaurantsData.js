@@ -1,4 +1,4 @@
-export const locations = [
+const locations = [
     {
         city: 'Berlin',
         avgVegans: '80,000',
@@ -280,3 +280,5 @@ export const locations = [
         ]
     }
 ];
+
+module.exports = locations;
