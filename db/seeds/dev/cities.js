@@ -1,13 +1,13 @@
 const restaurantsData = require('../../../restaurantsData');
 
-const createCity = async (knex, city) => {
+const createCity = async (knex, location) => {
 
   const cityId = await knex('cities').insert({
-    city,
-    avgVegans: city.avgVegans
+    city: location.city,
+    avgVegans: location.avgVegans
   }, 'id');
 
-  let restaurantPromises = city.restaurants.map((restaurant) => {
+  let restaurantPromises = location.restaurants.map((restaurant) => {
     return createRestaurant(knex, {
       restaurant,
       restaurant_id: cityId[0]
