@@ -1,4 +1,4 @@
-const locations = require('../../../restaurantsData');
+const restaurantsData = require('../../../restaurantsData');
 
 const createCity = async (knex, city) => {
 
@@ -18,7 +18,7 @@ const createCity = async (knex, city) => {
 };
 
 const createRestaurant = (knex, restaurant) => {
-  return knex('footnotes').insert(restaurant);
+  return knex('restaurants').insert(restaurant);
 };
 
 exports.seed = async (knex) => {
@@ -26,7 +26,7 @@ exports.seed = async (knex) => {
     await knex('restaurants').del()
     await knex('cities').del()
 
-    let citiesPromises = locations.map((location)=> {
+    let citiesPromises = restaurantsData.map((location)=> {
       return createCity(knex, location);
     });
 
