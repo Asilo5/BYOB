@@ -7,12 +7,17 @@ const createCity = async (knex, location) => {
     avgVegans: location.avgVegans
   }, 'id');
 
+  console.log(cityId)
+
   let restaurantPromises = location.restaurants.map((restaurant) => {
+    console.log(restaurant)
     return createRestaurant(knex, {
       restaurant,
       restaurant_id: cityId[0]
     })
   });
+
+  
 
   return Promise.all(restaurantPromises);
 };
